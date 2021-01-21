@@ -8,7 +8,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>PortfolioPerfect</title>
+    <title>Sebastián Rodríguez - Programador</title>
 
     <meta name="description" content="">
     <meta name="author" content="">
@@ -319,13 +319,16 @@
 
                 <h3>Contacto</h3>
                 <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                <form action="" method="post">
+                <form action="https://mailthis.to/miMailAlias" method="POST" encType="multipart/form-data">
+                    <input type="hidden" name="_subject" value="Formulario de contacto - Portafolio">
+                    <input type="hidden" name="_honeypot" value="">
+                    <input type="hidden" name="_confirmation" value="Mensaje enviado correctamente">
                     <div class="row">
                         <div class="col-sm-6">
                             <input type="text" name="name" class="form-control mt-x-0" placeholder="Nombre" required>
                         </div>
                         <div class="col-sm-6">
-                            <input type="email" name="email" class="form-control" placeholder="Email" required>
+                            <input type="email" name="_replyto" class="form-control" placeholder="Email" required>
                         </div>
                         <div class="col-sm-12">
                             <textarea name="message" id="message" class="form-control" placeholder="Mensaje"
