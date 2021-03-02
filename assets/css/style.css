@@ -38,8 +38,8 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-twitter:before {
-    content: '\f099';
+.icon-github:before {
+    content: '\F09B';
 }
 
 /* '' */
@@ -261,8 +261,8 @@ body {
 
 .hero .col-md-6:last-child {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 10%;
+    bottom: -3%;
 }
 
 .hero h1 {
@@ -591,7 +591,7 @@ body {
     -ms-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 }
 
-a.twitter-bg:hover {
+a.github-bg:hover {
     color: #55acee;
 }
 
@@ -616,4 +616,10 @@ a.icon-up-bg:hover {
     line-height: 40px;
     color: #fff;
     text-align: center;
+}
+
+a.facebook-bg, 
+a.github-bg,
+a.linkedin-bg {
+    color: white;
 }
